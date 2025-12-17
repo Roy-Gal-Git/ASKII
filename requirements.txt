@@ -1,0 +1,16 @@
+# Core dependencies
+strands-agents[gemini]  # Includes Gemini provider support
+strands-agents-tools
+chromadb
+google-genai
+tiktoken
+gitpython
+yaspin  # For spinner animations
+python-dotenv
+pydantic
+pathspec  # For .gitignore pattern matching
+tenacity  # For retry logic with exponential backoff and jitter
+
+# Development dependencies
+pytest>=7.0.0
+pytest-mock>=3.10.0
